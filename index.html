@@ -1,45 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Profesional Portfolio</title>
-    <link rel="stylesheet" href="stylesheet.css">
-  </head>
-  <body>
-    <div style="display: flex; justify-content: center;align-items: center;">
-      <h1 style="color: white; font-size: 40px;">Welcome to my Portfolio!</h1>
+<head>
+  <meta charset="UTF-8">
+  <title>Professional Portfolio</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+        crossorigin="anonymous">
+</head>
+<body style="background-image: url('back.jpg'); background-size: cover; color: white;">
+  <div class="container ">
+    <!-- First row with one column -->
+    <div style="font-size: 70px;" class="row text-center font-weight-bold">
+      <div class="col">
+        WELCOME
+      </div>
     </div>
-    <div style="display: flex; align-items: center;justify-content: center;">
-      <p style="font-size: 20px; text-align: center; padding: 10px; line-height: 25px;">Hi,My name is Ramiro Yoshua Franscisco González Dávila<br>
+    <div style="font-size: 30px; padding: 15px;" class="row text-center">
+      <div class="col">
+        My principal professional interest are focused on game development and mobile, I have experience with Unity for 2D and 3D development and currently learning Unreal Engine.
+      </div>
+    </div>
+    <!-- Second row with two columns -->
+    <div class="row">
+      <div class="col-6 font-weight-bold">
+        <div>
+          <img src="PlanetExplorer.png" width="50%" style="padding: 15px;">
+          Planet Explorer
+        </div>
+        <div>
+          <img src="AralsRevenge.png" width="50%" style="padding: 15px;">
+          Aral's Revenge
+        </div>
+        <div>
+          <img src="AlienInvasion.png" width="50%" style="padding: 15px;">
+          Alien Invasion
+        </div>
+      </div>
+      <div class="col-6">
+        <video width="600px" height="100%" autoplay muted>
+          <source src="PlanetExplorer.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </div>
+  </div>
 
-      I'm from Mexico and I´m 22 years old
-      
-      Currently studding the 4th semester in Computational Technologics Engineering at Instituto Tecnologico de Monterrey
-      <br>
-      My principal professional interest are focused on game development and mobile, I have experience with Unity for 2D and 3D development and currently learning Unreal Engine. 
-      
-      <br>
-      Here you will see my principal projects and colaborations, enjoy!
-    </p>
-    </div>
-    <div class="image-container">
-      <div class="image-box">
-        <a href="https://www.w3schools.com/cssref/pr_background-image.php"><img src="exam.jpg" alt="Descripción de la imagen 1"></a>
-        <p>Descripción de la imagen 1</p>
-      </div>
-      <div class="image-box">
-        <img src="exam.jpg" alt="Descripción de la imagen 2">
-        <p>Descripción de la imagen 2</p>
-      </div>
-      <div class="image-box">
-        <img src="exam.jpg" alt="Descripción de la imagen 3">
-        <p>Descripción de la imagen 3</p>
-      </div>
-      <div class="image-box">
-        <img src="exam.jpg" alt="Descripción de la imagen 4">
-        <p>Descripción de la imagen 4</p>
-      </div>
-    </div>
-    
-  </body>
+  <!-- Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+          integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
+          crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" 
+          integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" 
+          crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" 
+          integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" 
+          crossorigin="anonymous"></script>
+</body>
 </html>
