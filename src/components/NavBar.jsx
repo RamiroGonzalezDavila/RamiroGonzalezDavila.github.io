@@ -13,7 +13,7 @@ return (
             <Navbar.Brand >Portfolio</Navbar.Brand>
             <Nav className='me-auto'>
                 <Nav.Link><Link to="/">About</Link></Nav.Link>
-                <Nav.Link><Link to="/GameDevP">GameDevP</Link></Nav.Link>
+                <Nav.Link><Link to="/GameDevP">Game Dev Portfolio</Link></Nav.Link>
             </Nav>
         </Container>
     </Navbar>
