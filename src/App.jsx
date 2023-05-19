@@ -9,7 +9,7 @@ function App() {
   return (
     <BrowserRouter basename='/' className="App"  >
       <Routes >
-        <Route path="/" element={<About/>}/>
+        <Route exact path="/" element={<About/>}/>
         <Route path="/GameDevP" element={<GameDevelopment/>}/>
       </Routes>
     </BrowserRouter> 
