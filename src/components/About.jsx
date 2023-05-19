@@ -7,6 +7,7 @@ import Col from 'react-bootstrap/Col';
 import fotoPer from '../assets/FotoProfesional.jpeg';
 import GamePic from '../assets/Gaming.png';
 import {TextoAboutMe, TextoProfesionalInterest} from '../assets/GameData';
+
 function About(){
 return (
     <Container style={{height: '100%', width: '100%'}}>
