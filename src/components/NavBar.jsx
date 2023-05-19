@@ -12,8 +12,8 @@ return (
         <Container style={{margin:"0"}}>
             <Navbar.Brand >Portfolio</Navbar.Brand>
             <Nav className='me-auto'>
-                <Nav.Link href="/">About</Nav.Link>
-                <Nav.Link href="/GameDevP">Game Dev Portfolio</Nav.Link>
+                <Nav.Link><Link to="/">About</Link></Nav.Link>
+                <Nav.Link><Link to="/GameDevP">GameDevP</Link></Nav.Link>
             </Nav>
         </Container>
     </Navbar>
