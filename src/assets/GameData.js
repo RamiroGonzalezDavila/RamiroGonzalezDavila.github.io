@@ -11,6 +11,8 @@ defense game in Unity in which you will be an alien an your objective
 will be to destroy the human base passing trough a way full of 
 human defense towers.`
 
+export let TextoSumath = `Educational mobile game, this game is made for kids between 6 and 12 years to practice mathematics with mental calculation additions.`
+
 export let TextoAboutMe = `I'm Ramiro Gonzalez, 22 years old student currently studing the 5th semester of Software Engineering at Instituto Tecnologico de Monterrey in Mexico. 
 I'm pasionate about technology and gaming, my favorite type of video games are the FPS like Valorant, CSGO and Apex Legends, but I really like gaming no matter the type of game, I enjoy playing it.`
 

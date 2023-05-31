@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import { HashRouter, RouterProvider, createHashRouter } from 'react-router-dom'
 import About from './components/about.jsx'
 import GameDevelopment from './components/GameDevelopment.jsx'
+import GamePage from './components/GamePage.jsx'
 
 
 const router = createHashRouter([
@@ -16,6 +17,10 @@ const router = createHashRouter([
   {
     path:"/GameDevP",
     element: <GameDevelopment/>,
+  },
+  {
+    path:"/GamePage/:test",
+    element: <GamePage/>,
   },
 ])
 
